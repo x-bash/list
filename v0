@@ -4,10 +4,10 @@
 # maintainer:   Li Junhao
 
 if [ -n "$BASH_VERSION" ]; then
-    xrc std/list_bash
+    xrc list/v0_bash
 elif [ -n "$ZSH_VERSION" ]; then
-    xrc std/list_str
+    xrc list/v0_str
     # xrc std/list_zsh
 else
-    xrc std/list_str
+    xrc list/v0_str
 fi
